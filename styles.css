@@ -1,0 +1,48 @@
+/* Place your CSS styles in this file */
+
+p {
+
+    text-align: left;
+    font-family: Arial;
+    color: rgb(112, 0, 192);
+  }
+
+  h1 {
+
+    /* Creamos un degradado en los titulos que quede acorde a la estetica de la pagina*/
+
+    background: linear-gradient(to right, #800080, #1E90FF);
+    color: white; 
+  }
+
+  h2{
+      color:#4747ff;
+      background-color: gainsboro;
+  }
+
+  a{
+    color: goldenrod;
+    
+
+  }
+
+  body{
+    background-image: url(montañas.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* Cambia cualquier imagen que lleve este class  */
+
+  @media only screen and (max-width: 768px) {
+    .imagenMovil {
+      content: url('movilsize.webp'); 
+      width: 100%; 
+    }
+  }
+
+
+
+
+
